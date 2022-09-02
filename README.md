@@ -11,7 +11,7 @@ Live Demo Link: https://bob-omondi.github.io/GoForeign-currency-converter/
 
 # Authors
 👤 BOB OMONDI
- .GitHub: @githubhandle
+ .GitHub: https://github.com/bob-omondi
 
 
 

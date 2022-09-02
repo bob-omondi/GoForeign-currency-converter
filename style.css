@@ -1,0 +1,92 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 10px;
+  background: #675AFE;
+}
+.wrapper{
+  width: 500px;
+  padding: 40px;
+  border-radius: 7px;
+  background: #fff;
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+
+}
+.wrapper header{
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+.wrapper form{
+  margin: 40px 0 20px 0;
+}
+
+form .btn-convert{
+  font-size: 30px;
+  margin: 20px 0 30px;
+}
+
+::selection{
+  color: #fff;
+  background: #675AFE;
+}
+form p{
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.select-box select{
+  width: auto;
+  font-size: 16px;
+  background: none;
+  margin: 0 -5px 0 5px;
+}
+
+form :where(input, button){
+  width: 100%;
+  border-radius: 5px;
+  height: 52px
+}
+
+
+form .result-rate {
+  font-size: 17px;
+  margin: 20px 0 30px;
+  font-weight: bolder;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  width:400px;
+  background: gray;
+  text-align: center;
+  font-weight:lighter;
+  font-style: italic; 
+  font-size:medium;
+}
+
+.button0 {background-color: #5a8efe;;} 
+.button0:hover {
+  background-color: #5a8efe;
+  color: black;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+header.thick {
+  font-weight: bold;
+}
